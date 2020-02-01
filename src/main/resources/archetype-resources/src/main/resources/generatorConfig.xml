@@ -22,7 +22,7 @@
 		</javaTypeResolver>
 
 		<!-- entity class -->
-		<javaModelGenerator targetPackage="${groupId}.entity" targetProject="src/main/java" >
+		<javaModelGenerator targetPackage="${groupId}.entity" targetProject="src/main/kotlin" >
 			<property name="rootClass" value="${groupId}.entity.BaseEntity"/>
 			<property name="enableSubPackages" value="false" />
 			<property name="trimStrings" value="true" />
@@ -34,7 +34,7 @@
 		</sqlMapGenerator>
 
 		<!-- mapper class -->
-		<javaClientGenerator type="XMLMAPPER"  targetPackage="${groupId}.mapper" targetProject="src/main/java">
+		<javaClientGenerator type="XMLMAPPER"  targetPackage="${groupId}.mapper" targetProject="src/main/kotlin">
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 
