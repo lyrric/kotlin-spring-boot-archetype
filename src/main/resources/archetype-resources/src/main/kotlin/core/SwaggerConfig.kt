@@ -22,7 +22,7 @@ class SwaggerConfig {
         return Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(ApiInfoBuilder().title("swagger-ui-~~~~").build())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.github.lyrric.lianjia"))
+                .apis(RequestHandlerSelectors.basePackage("${groupId}"))
                 .paths(PathSelectors.any())
                 .build()
     }
