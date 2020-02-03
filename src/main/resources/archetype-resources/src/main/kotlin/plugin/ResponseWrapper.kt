@@ -1,7 +1,7 @@
 package ${groupId}.plugin
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.github.lyrric.lianjia.model.HttpResult
+import ${groupId}.model.HttpResult
 import org.springframework.core.MethodParameter
 import org.springframework.http.MediaType
 import org.springframework.http.converter.HttpMessageConverter

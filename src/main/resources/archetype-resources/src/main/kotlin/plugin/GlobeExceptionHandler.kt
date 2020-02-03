@@ -1,7 +1,7 @@
 package ${groupId}.plugin
 
-import com.github.lyrric.lianjia.model.BusinessException
-import com.github.lyrric.lianjia.model.HttpResult
+import ${groupId}.model.BusinessException
+import ${groupId}.model.HttpResult
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.web.bind.annotation.ControllerAdvice
